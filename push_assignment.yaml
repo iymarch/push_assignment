@@ -1,0 +1,6 @@
+Type: IPython Notebook 
+Name: push_assignment
+Link: README.md
+Description: Позволяет отправить ноутбук в formgrader (необходимо предоставить api client)
+Main: main.js
+Compatibility: 4.x, 5.x
