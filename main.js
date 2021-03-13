@@ -9,7 +9,7 @@ define([
         let handler = function () {
             let baseUrl = window.document.body.dataset.baseUrl;
             let notebookPath = window.document.body.dataset.notebookPath;
-            let urlApiContent = 'http://' + location.host + baseUrl + 'api/contents/' + notebookPath; 
+            let urlApiContent = `http://${location.host}${baseUrl}api/contents/${notebookPath}`; 
             let username = baseUrl.slice(6, baseUrl.length-1); // pattern "/user/<USERNAME>/"
 
             $.ajax({
